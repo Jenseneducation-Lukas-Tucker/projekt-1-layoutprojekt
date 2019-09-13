@@ -1,14 +1,10 @@
 header{
     max-width: 1000px;
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: 300px 150px 150px;
-    grid-template-areas: "covered covered" 
-                           "learn join"; 
+    grid-template-columns: 2fr;
+    grid-template-rows: 200px 100px 100px;
+    grid-template-areas: "covered covered learn learn"
+                         "covered covered join join"    
 }
 
-.covered{
-    background: skyblue;
-    grid-area: covered;
-}
 
