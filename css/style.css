@@ -25,8 +25,4 @@ body {
     grid-row: 3/6
 }
 
-.family {
-    height: 60px;
-    width: 60px;
-    justify-self: end;
-}
+
