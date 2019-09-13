@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #eaeaea
 }
@@ -31,3 +32,19 @@ body {
     width: 60px;
     justify-self: end;
 }
+=======
+header{
+    max-width: 1000px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 300px 150px 150px;
+    grid-template-areas: "covered covered" 
+                           "learn join"; 
+}
+
+.covered{
+    background: skyblue;
+    grid-area: covered;
+}
+
+>>>>>>> a559766c4caf9a09a548b48d4aa27bf5a4f957fa
