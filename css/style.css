@@ -1,0 +1,14 @@
+header{
+    max-width: 1000px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 300px 150px 150px;
+    grid-template-areas: "covered covered" 
+                           "learn join"; 
+}
+
+.covered{
+    background: skyblue;
+    grid-area: covered;
+}
+
