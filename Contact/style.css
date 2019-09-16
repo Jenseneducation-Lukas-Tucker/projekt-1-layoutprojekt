@@ -1,0 +1,40 @@
+#page {
+    display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas: "header header"
+                       "nav nav"
+                       "form form"
+                       "map map"
+                       "footer footer";
+  grid-template-rows: 250px 70px 400px 250px 250px;
+    }
+
+    header, nav, main, div, footer {
+        padding: 20px;
+        }
+
+    #page > header {
+    grid-area: header;
+    background: darkblue;
+    }
+
+    #page > nav {
+    grid-area: nav;
+    background: darkcyan;
+    }
+
+    #page > main { 
+    grid-area: form;
+    background: darkgoldenrod;      
+    }
+
+    #page > div { 
+    grid-area: map; 
+    background: darkgray;
+    }
+
+    #page > footer { 
+    grid-area: footer; 
+    background: darkgreen;
+    }
