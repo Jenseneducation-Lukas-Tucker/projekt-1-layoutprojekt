@@ -1,6 +1,6 @@
 body {
   background: #eaeaea;
-  max-width: 1500px;
+  max-width: 1000px;
   height: auto;    
   margin: 0 auto;
 }
@@ -76,6 +76,8 @@ ul {
 }
 
 li {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
   text-align: center;
 }
