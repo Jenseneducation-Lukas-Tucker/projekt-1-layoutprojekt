@@ -97,10 +97,32 @@ ul {
 li {
   display: flex;
   flex-direction: row;
+  align-items: center;
   list-style-type: none;
-  text-align: center;
+  
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px auto;
+  grid-template-areas: "safety safety safety safety"
+                        "safety safety safety safety"
+                         "safety safety safety safety"
+                         "about about about about"
+                         "about about about about"
+                         "about about about about"
+                          "about about about about";
+}
+
+.safety{
+  grid-area: safety;
+}
+
+.about{
+  grid-area: about;
 }
