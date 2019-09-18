@@ -1,7 +1,7 @@
 body {
   background: #eaeaea;
   max-width: 1000px;
-  height: auto;
+  max-height: auto;   
   margin: 0 auto;
 }
 /*header elements*/
@@ -39,10 +39,9 @@ body {
   float: right;
 }
 
-p {
-  font-size: 12px;
-  padding-left: 30px;
-  padding-right: 10px;
+.covered p {
+  padding-left: 70px;
+  padding-right: 80px;
   letter-spacing: 2px;
   padding-bottom: 20px;
 }
@@ -63,10 +62,28 @@ button {
   padding-right: 80px;
 }
 
+.site-nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .site-nav li {
   display: inline-block;
   font-size: 20px;
-  padding: 20px;
+  padding: 50px 80px 50px 80px;
+  color: #9e9e9e
+}
+.site-nav a:hover {
+    cursor: pointer;
+    color: black;
 }
 
 a {
