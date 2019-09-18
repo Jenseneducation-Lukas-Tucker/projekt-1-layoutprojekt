@@ -26,16 +26,33 @@ body {
   text-align: center;
   grid-area: learn;
 }
+
+.lrn-txt{
+  margin-top: 100px;
+  color: grey;
+}
+
 .join {
   background: #ffb538;
   text-align: center;
   grid-area: join;
 }
 
+.join-txt{
+  margin-top: 100px;
+  color: grey;
+}
+
+h2{
+color: #eaeaea;
+font-size: 30px;
+}
+
 .family {
-  height: 280px;
-  width: 300px;
+  height: 300px;
+  width: 350px;
   float: right;
+  margin-top: 45px;
 }
 
 .covered p {
@@ -258,4 +275,10 @@ justify-self: start
 
 .btn1:hover::before{
     height: 0%;
+}
+
+footer {
+  background: grey;
+  height: 400px;
+  width: 100%;
 }
