@@ -209,7 +209,8 @@ li {
 }
 
 h5 {
-  padding-left: 70px;
+  padding-left: 50px;
+  font-size: 20px;
 }
 
 .card-1 {
@@ -228,6 +229,7 @@ h5 {
   grid-row: 6 /11;
   z-index: 2;
 }
+
 
 .card-1 img {
   position: relative;
