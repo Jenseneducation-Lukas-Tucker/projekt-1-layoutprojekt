@@ -172,7 +172,7 @@ li {
 .main{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;     
+  grid-template-rows: repeat(18, 75px);     
 }
 
 .safety{
