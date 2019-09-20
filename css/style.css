@@ -183,10 +183,11 @@ li {
 
 .safety1 {
   flex: 1;
-  padding: 40px 60px 40px 60px;
+  padding: 40px 60px 40px 60px;  
 }
 
 .safety2 {
+  margin-top: 40px;
   padding: 40px 60px 40px 60px;
   flex: 1;
 }
