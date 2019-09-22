@@ -134,6 +134,7 @@ li {
   overflow: hidden;
   text-align: center;
   margin-left: 30px;
+  border-radius: 50%;
 }
 
 .btn2 {
@@ -144,8 +145,7 @@ li {
   color: grey;
 }
 
-.button::before {
-  content: "";
+.button:before {  
   position: absolute;
   left: 0;
   width: 100%;
@@ -155,12 +155,12 @@ li {
   transition: 500ms;
 }
 
-.btn2::before {
+.btn2:before {
   bottom: 0;
   border-radius: 50% 50% 0 0;
 }
 
-.btn2:hover::before {
+.btn2:hover:before {
   height: 180%;
 }
 
