@@ -19,8 +19,7 @@ body {
 }
 
 .covered {
-  grid-area: covered;
-  text-align: center;
+  grid-area: covered;  
   background: #bfdbe9;
 }
 
@@ -31,7 +30,6 @@ body {
 }
 
 .covered p {
-  padding-right: 250px;
   text-align: left;
 }
 
